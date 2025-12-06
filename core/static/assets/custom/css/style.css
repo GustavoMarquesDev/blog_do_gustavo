@@ -252,6 +252,28 @@ main {
   outline: none;
 }
 
+#ver,
+#editar,
+#remover {
+  padding: 10px;
+  border: none;
+}
+
+#ver {
+  background-color: #46996e;
+  color: var(--background);
+}
+
+#editar {
+  background-color: #667eea;
+  color: var(--background);
+}
+
+#remover {
+  background-color: #ee0979;
+  color: var(--background) !important;
+}
+
 .criar-resposta {
   padding: 10px 20px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
@@ -378,7 +400,7 @@ main {
 
 /* Variação para link de remover (text-danger) */
 .answer-link.text-danger {
-  color: #f5576c;
+  /* color: #f5576c; */
   background: rgba(245, 87, 108, 0.1);
   border-color: transparent;
 }

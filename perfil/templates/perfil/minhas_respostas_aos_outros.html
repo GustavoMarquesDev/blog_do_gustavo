@@ -37,17 +37,18 @@
                                 </div>
                             {% endif %}
                             <div class="buttons-container mt-3">
-                                <a href="{% url 'lista:detalhes' resposta.post.pk %}" class="answer-link">
+                                <a href="{% url 'lista:detalhes' resposta.post.pk %}" class="answer-link" id="ver">
                                     <i class="fa-solid fa-eye"></i>
                                     Ver pergunta completa
                                 </a>
                                 {% if request.user == resposta.usuario %}
-                                    <a href="{% url 'perfil:editarResposta' resposta.id %}" class="answer-link">
+                                    <a href="{% url 'perfil:editarResposta' resposta.id %}" class="answer-link" id="editar">
                                         <i class="fa-solid fa-pen-to-square"></i>
                                         Editar resposta
                                     </a>
                                     <a href="{% url 'lista:deletar' resposta.pk %}" 
                                        class="answer-link text-danger" 
+                                       id="remover"
                                        onclick="return confirm('Tem certeza que deseja deletar esta resposta? Esta ação não pode ser desfeita.')">
                                         <i class="fa-solid fa-trash"></i>
                                         Remover

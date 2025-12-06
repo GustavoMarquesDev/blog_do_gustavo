@@ -452,13 +452,4 @@ Para dúvidas, sugestões ou problemas, abra uma issue no repositório.
 
 ---
 
-## 🙏 Agradecimentos
-
-- Django Community
-- Bootstrap Team
-- Font Awesome
-- Todos os desenvolvedores que contribuem para o ecossistema Python/Django
-
----
-
 **Desenvolvido com ❤️ usando Django**
