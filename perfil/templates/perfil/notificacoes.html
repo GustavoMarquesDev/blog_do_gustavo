@@ -15,7 +15,7 @@
                          style="{% if not notificacao.lida %}border-left: 4px solid var(--primary); background: rgba(78, 115, 223, 0.05);{% endif %}">
                         <div class="d-flex justify-content-between align-items-start mb-2">
                             <h3 class="mb-1">
-                                <a href="{% url 'lista:detalhes' notificacao.pergunta.pk %}" class="question-link">
+                                <a href="{% url 'lista:detalhes' notificacao.pergunta.pk %}" class="question-link-title">
                                     {{ notificacao.pergunta.titulo }}
                                 </a>
                             </h3>

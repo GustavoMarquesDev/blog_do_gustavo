@@ -236,14 +236,20 @@ main {
 
 .question-link-title {
   text-decoration: none !important;
+  color: var(--primary);
+
+  &:hover {
+    color: #764ba2;
+    text-decoration: none;
+  }
 
   h2 {
-    color: var(--primary);
+    color: var(--primary) !important;
     font-size: 1.5rem;
     text-decoration: none !important;
 
     &:hover {
-      color: #764ba2;
+      color: #764ba2 !important;
       text-decoration: none;
     }
   }
