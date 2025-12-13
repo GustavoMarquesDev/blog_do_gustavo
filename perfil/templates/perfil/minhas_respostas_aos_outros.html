@@ -12,7 +12,7 @@
                 {% for resposta in respostas %}
                     <div class="question-card mb-2">
                         <h2 class="mb-1">
-                            <a href="{% url 'lista:detalhes' resposta.post.pk %}" class="question-link">
+                            <a href="{% url 'lista:detalhes' resposta.post.pk %}" class="question-link-answer">
                                 {{ resposta.post.titulo }}
                             </a>
                         </h2>
